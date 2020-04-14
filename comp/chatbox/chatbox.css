@@ -1,0 +1,20 @@
+.ChatCard {
+    background-color: #efefef;
+    display:inline-flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+.ChatUser {
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+.ChatUser img {
+    width: 66px;
+    height: 66px;
+    object-fit: contain;
+    margin-right: 5px;
+    border-radius: 40px;
+} 
