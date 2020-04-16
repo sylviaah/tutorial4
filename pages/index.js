@@ -12,8 +12,10 @@ function ClickIndex(){
 const Index = () => <div>
     <div onClick={ClickIndex}>Index</div>
 
-    <Link href="/ChatPage"><a>Chat</a></Link>
-    <Link href="/ContactPage"><a>Contact</a></Link>
+    <Link href="/ChatPage"><a>Chat</a></Link><br />
+    <Link href="/ContactPage"><a>Contact</a></Link><br />
+    <Link href="/CabbagePage"><button>Cabbage</button></Link><br />
+    <Link href="/AboutPage"><button>About</button></Link>
 </div>
 
 export default Index;
